@@ -8,15 +8,14 @@
     <!-- Inclua o link para o arquivo CSS do Bootstrap -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <?php require ('header.php') ?>
+    <?php require('header.php') ?>
     <section id="banner">
         <div class="col-md-12">
             <img class="col-md-12" src="assets/images/banner.png" />
@@ -198,32 +197,145 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <h2>
+                    Ecobarreiras
+                </h2>
+                <p style="color:white">
+                    Implantamos e operamos ecobarreiras em rios e lagoas, desempenhando papel fundamental na proteção do meio ambiente. A função principal dessa atividade é
+                    resíduos sólidos como plásticos, garrafas e demais objetos que são descartados de maneira incorreta.
+                </p>
+            </div>
+            <div class="col-md-12 img-ecobarreiras">
+                <div class="col-md-6">
+                    <img src="assets/images/Foto_Ecobarreira_Ligacao.png" />
+                    <label>LIGAÇÕES ÁGUA E ESGOTO</label>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/Foto_Ecobarreira_Distribuicao.png" />
+                    <label>DISTRIBUIÇÃO DE ÁGUA</label>
+                </div>
+            </div>
+            <section id="servicos">
+                <h2>
+                    Ecobarreiras
+                </h2>
+                <img style="max-width: 100%; margin-bottom: 100px" src="assets/images/Foto_Energia.png" />
+                <div class="paragrafo-principal">
+                    <p>
+                        Um dos setores em frequente transformação, tendo a sustentabilidade como um dos seus pilares. À medida que esse mercado se desenvolve e as exigências mudam,
+                        continuamos a nos modernizar para atender às crescentes exigências de nossos clientes, fornecendo soluções integradas durante o desenvolvimento de todos os nossos projetos.</p>
+                    <p>
+                        Com a integração da pré-construção, a gestão dos trabalhos de implantação e o uso de serviços terceirizados gerais, oferecemos uma abordagem abrangente para o planejamento e o
+                        desenvolvimento de projetos, além de atualização de centrais elétricas e infraestruturas de concessionárias. </p>
+                    <p>O complexo setor de energia de hoje requer liderança especializada,
+                        investimento em tecnologia e inovação, além de um rápido desenvolvimento de soluções com diversos tipos de combustível, notadamente de fontes de energia renováveis.</p>
+                    <p>Atuamos na iluminação pública, em subestações, instalações prediais e SPDA (Sistema de Proteção contra Descargas Atmosféricas), um conjunto de estruturas e soluções cuja função é proteger
+                        pessoas e construções das ações dos raios.
+                    </p>
+                </div>
+                <h2>
+                    RESÍDUOS
+                </h2>
+                <img style="max-width: 100%; margin-bottom: 100px" src="assets/images/Fpto_Residuos.png" />
+                <div class="paragrafo-principal">
+                    <p>
+                        Impactado pelas atitudes humanas, o meio ambiente precisa ser preservado. Cientes da importância de cuidar das regiões onde atuamos, oferecemos serviços de coleta, transporte e
+                        destinação de resíduos com máxima eficiência e qualidade.</p>
+                    <p>
+                        Disponibilizamos atendimento adequado aos resíduos desde a geração até o destino final, de acordo com a legislação vigente,
+                        garantindo a coleta, o transporte, e a destinação ambientalmente adequada, com emissão de Manifesto e certificado de destinação final, para comprovação junto aos órgãos de fiscalização do
+                        Meio de Ambiente. </p>
+                </div>
+                <div>
+                    <h3>Nossos serviços compreendem:</h3>
+                </div>
+                <div id="bloco-servicos">
+                    <div class="col-md-4 bloco-servico-interno">
+                        <img src="assets/images/icons/Icon_RSU_Urbanos.svg" />
+                        <h3 style="text-align: center; margin: 0px;">RSU / Resíduos Sólidos Urbanos</h3>
+                        <hr />
+                        <p>Varrição <br>Coleta<br> Transbordo</p>
+                    </div>
+                    <div class="col-md-4 bloco-servico-interno">
+                        <img src="assets/images/icons/Icon_RCC_Contrucao_Civil.svg" />
+                        <h3 style="text-align: center; margin: 0px;">RSS / Resíduo de Serviço de Saúde</h3>
+                        <hr />
+                        <p>Coleta</p>
+                    </div>
+                    <div class="col-md-4 bloco-servico-interno">
+                        <img src="assets/images/icons/Icon_RSS_Saude.svg" />
+                        <h3 style="text-align: center; margin: 0px;">RSU / Resíduos Sólidos Urbanos</h3>
+                        <hr />
+                        <p>Coleta<br>Transporte</p>
+                    </div>
+                </div>
+            </section>
         </div>
         <img class="back" src="assets/images/Elementos_fundos.png" />
     </section>
-    <footer>
-        <div style="background-color: #eaeaea;" class="col-md-12">
-            <div class="rodape">
-                <div>
-                    <img src="assets/images/logo-rodape.png" />
+    <section id="contato">
+        <div class="container">
+            <div class="col-md-12 contato-botom">
+                <div class="col-md-6 contato-int">
+                    <h2>
+                        Contato
+                    </h2>
+                    <h5>
+                        Fale com a QUALITER Engenharia. Seu contato é importante para nós.
+                    </h5>
+                    <form>
+                        <label>Nome</label>
+                        <input class="form-control" />
+                        <label>E-mail</label>
+                        <input class="form-control" />
+                        <label>Telefone</label>
+                        <input class="form-control" />
+                        <label>Assunto</label>
+                        <textarea class="form-control"></textarea>
+                        <div class="form-botom">
+                            <div class="col-md-6 form-botom-int">
+                                <input type="checkbox" />
+                                <span>Quero receber novidades da Qualiter por e-mail e Whatsapp</span>
+                            </div>
+                            <div class="col-md-6 form-botom-int">
+                                <button>Enviar</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div>
-                    <label>Nova Energia - 2024 | Todos os direitos reservados.<label>
+                <div class="col-md-6 contato-int">
+                    <img src="assets/images/Banner_Contato.png" />
+                    <label>
+                        Entre em contato conosco para saber mais sobre nossas atividades ou venha nos fazer uma visita. Será um prazer recebê-lo.
+                    </label>
+                    <h2>
+                        +55 (21) 3272-0052
+                    </h2>
+                    <label>
+                        Escritório Central - Rio de Janeiro<br>
+                        Av. José Silva de Azevedo Neto, 200 - Bl 2 - SL. 404 Barra da Tijuca - Rio de Janeiro/ RJ - 22631-003
+                    </label>
+
                 </div>
             </div>
+
         </div>
-        <div style="justify-content:center" class="col-md-12">
-            <div class="logos-fundo">
-                <img src="assets/images/imagem-footer.png" />
-            </div>
-            <div>
+
+    </section>
+    <footer>
+        <div class="container">
+            <div class="col-md-12 footer-int">
                 <div>
-                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-                        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-                        crossorigin="anonymous"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-                        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-                        crossorigin="anonymous"></script>
+                    <img src="assets/images/logo.svg" />
+                </div>
+                <div style="margin-left: 20px; color: white">
+                    <label>© QUALITER Engenharia - 2024 | Todos os direitos reservados.</label>
+                </div>
+            </div>
+
+        </div>
+
     </footer>
 
 </body>

@@ -109,28 +109,33 @@ nav {
     opacity: 1;
     font-weight: 700;
 }
-.quem-somos{
+
+.quem-somos {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 20px;
 }
-.quem-somos img{
+
+.quem-somos img {
     max-width: 100%;
 }
 
-#sobre .bloco{
+#sobre .bloco {
     padding: 10px;
 }
 
 /*Atividades*/
-#atividades{
+#atividades {
     background-color: #3B4C62;
+    padding-bottom: 400px;
 }
-#atividades .back{
+
+#atividades .back {
     position: absolute;
     top: 1400px;
 }
+
 #atividades h1 {
     text-align: left;
     letter-spacing: 3px;
@@ -141,34 +146,39 @@ nav {
     padding-top: 300px;
     padding-bottom: 50px;
 }
+
 #atividades h2 {
     text-align: left;
     color: #7DA2D6;
     text-transform: uppercase;
     font-weight: 500;
 }
+
 #atividades h3 {
     text-align: center;
     color: #FFFFFF;
     font-weight: 500;
     margin-bottom: 60px;
 }
+
 #atividades .paragrafo-principal {
     text-align: left;
     color: #FFFFFF;
     padding: 40px 0px 70px 0px;
-    
+
 }
-.atividades-bloco{
+
+.atividades-bloco {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
-.atividades-bloco-interno{
+
+.atividades-bloco-interno {
     padding: 20px;
-    color:#FFFFFF ;
+    color: #FFFFFF;
 }
 
 /*Conceito*/
@@ -294,4 +304,122 @@ nav {
     max-width: 100%;
     border-radius: 20px;
     margin-bottom: 70px;
+}
+
+.img-ecobarreiras {
+    display: flex;
+}
+
+.img-ecobarreiras label {
+    color: white;
+    margin-top: 30px;
+}
+
+#servicos {
+    margin-top: 100px;
+}
+
+#bloco-servicos {
+    display: flex;
+    margin: 20px;
+}
+
+.bloco-servico-interno {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #647A98;
+    margin: 20px;
+}
+
+.bloco-servico-interno img {
+    margin: 20px;
+}
+
+.bloco-servico-interno h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.bloco-servico-interno hr {
+    color: #FFFFFF;
+    width: 100%;
+
+}
+
+.bloco-servico-interno p {
+    color: #FFFFFF;
+    margin: 40px;
+}
+
+#contato h2 {
+    text-align: left;
+    color: #7DA2D6;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+#contato {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#contato h5 {
+    text-align: left;
+    font-weight: 600;
+}
+
+#contato label {
+    margin: 10px 10px 10px 0px;
+}
+
+.form-botom {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.form-botom-int {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.form-botom button {
+    background-color: #647A98;
+    width: 150px;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.form-botom span {
+    margin: 20px;
+}
+
+.contato-botom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-int {
+    margin: 20px;
+}
+
+footer {
+    background-color: #647A98;
+}
+
+.footer-int {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
