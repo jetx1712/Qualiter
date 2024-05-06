@@ -369,7 +369,7 @@
                         Contato
                     </h2>
                     <h5>
-                        Fale com a QUALITER Engenharia. Seu contato é importante para nós.
+                        Fale com a QUALITER Engenharia. <br>Seu contato é importante para nós.
                     </h5>
                     <form id="formulario_envio" method="POST">
                         <label>Nome</label>
