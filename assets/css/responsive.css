@@ -1,15 +1,19 @@
 /* 200 - 374 */
 
-@media (min-width: 200px) and (max-width: 760px) {
-    .logo{
-        max-width: 200px;
+@media (min-width: 200px) and (max-width: 400px) {
+    .logo {
+        max-width: 180px;
     }
+
     .titulo-banner {
         font-size: 20px;
+        font-weight: 400;
+        max-width: 90%;
     }
 
     #atividades {
         padding-bottom: 20px;
+        padding-top: 20px;
     }
 
     #atividades h3 {
@@ -22,7 +26,7 @@
 
     #sobre {
         margin-top: 0px;
-        height: 1100px;
+        height: 1050px;
         margin-bottom: 1px;
     }
 
@@ -30,16 +34,42 @@
         flex-direction: column-reverse;
     }
 
+    .form-botom button {
+        width: 200px;
+    }
+
     #atividades h1 {
         padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    .banner-img {
+        height: 700px;
+    }
+    .banner-img{
+        background-image: url('../images/banner-mobile.png');
     }
 
     #atividades h2 {
         font-size: 20px;
     }
 
+    .bloco-servico-bb {
+        margin-bottom: 10px;
+    }
+    #atividades .paragrafo-principal {
+        padding: 20px 0px 0px 0px;
+    }
+    #atividades h3 {
+        margin-bottom: 20px;
+    }
+
     #atividades p {
-        font-size: 10px;
+        font-size: 15px;
+    }
+
+    #sobre {
+        padding-top: 0px;
     }
 
     .contato-botom {
@@ -60,6 +90,308 @@
     #banner img {
         height: 500px;
     }
+
+    .atividades-bloco-interno img {
+        max-width: 50px;
+    }
+
+    .footer-int {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .carousel-caption {
+        right: 60% !important;
+    }
+
+    .carousel-caption h5 {
+        font-size: 10px;
+    }
+
+
+    .footer-int label {
+        font-size: 10px;
+        padding-top: 10px;
+
+    }
+
+    .contato-int-2 {
+        padding-left: 0px;
+    }
+
+    .contato-botom {
+        padding: 0px 10px 10px 0px;
+
+    }
+
+    #contato label {
+        width: 100%;
+    }
+
+    #contato {
+        padding-top: 10px;
+    }
+}
+@media (min-width: 401px) and (max-width: 499px) {
+    .logo {
+        max-width: 180px;
+    }
+
+    .titulo-banner {
+        font-size: 20px;
+        font-weight: 400;
+        max-width: 90%;
+    }
+
+    #atividades {
+        padding-bottom: 20px;
+        padding-top: 60px;
+    }
+
+    #atividades h3 {
+        font-size: 15px;
+    }
+
+    .bloco-servico-interno {
+        padding: 10px;
+    }
+
+    #sobre {
+        margin-top: 0px;
+        height: 1050px;
+        margin-bottom: 1px;
+    }
+
+    .quem-somos {
+        flex-direction: column-reverse;
+    }
+
+    .form-botom button {
+        width: 200px;
+    }
+
+    #atividades h1 {
+        padding-top: 30px;
+        padding-bottom: 90px;
+    }
+
+    .banner-img {
+        height: 700px;
+    }
+    .banner-img{
+        background-image: url('../images/banner-mobile.png');
+    }
+
+    #atividades h2 {
+        font-size: 20px;
+    }
+
+    .bloco-servico-bb {
+        margin-bottom: 10px;
+    }
+    #atividades .paragrafo-principal {
+        padding: 20px 0px 0px 0px;
+    }
+    #atividades h3 {
+        margin-bottom: 20px;
+    }
+
+    #atividades p {
+        font-size: 15px;
+    }
+
+    #sobre {
+        padding-top: 0px;
+    }
+
+    .contato-botom {
+        flex-direction: column-reverse;
+    }
+
+    .form-botom {
+        flex-direction: column;
+    }
+
+    .texto-banner {
+        left: 15%;
+        position: absolute;
+        overflow: hidden;
+        top: 200px;
+    }
+
+    #banner img {
+        height: 500px;
+    }
+
+    .atividades-bloco-interno img {
+        max-width: 50px;
+    }
+
+    .footer-int {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .carousel-caption {
+        right: 60% !important;
+    }
+
+    .carousel-caption h5 {
+        font-size: 10px;
+    }
+
+
+    .footer-int label {
+        font-size: 10px;
+        padding-top: 10px;
+
+    }
+
+    .contato-int-2 {
+        padding-left: 0px;
+    }
+
+    .contato-botom {
+        padding: 0px 10px 10px 0px;
+
+    }
+
+    #contato label {
+        width: 100%;
+    }
+
+    #contato {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 760px) {
+    .logo {
+        max-width: 200px;
+    }
+
+    .titulo-banner {
+        font-size: 20px;
+    }
+
+    #atividades {
+        padding-bottom: 20px;
+    }
+
+    #atividades h3 {
+        font-size: 20px;
+    }
+
+    .bloco-servico-interno {
+        padding: 10px;
+    }
+
+    .bloco-servico-interno p {
+        margin: 20px;
+    }
+
+    .banner-img {
+        height: 500px;
+    }
+
+    #sobre {
+        margin-top: 0px;
+        height: 1100px;
+        margin-bottom: 1px;
+    }
+
+    .quem-somos {
+        flex-direction: column-reverse;
+    }
+
+    .form-botom button {
+        width: 290px;
+    }
+
+    #atividades h1 {
+        padding-top: 30px;
+    }
+
+    #atividades h2 {
+        font-size: 20px;
+    }
+
+    .bloco-servico-bb {
+        margin-bottom: 10px;
+    }
+
+    #atividades p {
+        font-size: 20px;
+    }
+
+    .contato-botom {
+        flex-direction: column-reverse;
+    }
+
+    .form-botom {
+        flex-direction: column;
+    }
+
+    .texto-banner {
+        left: 15%;
+        position: absolute;
+        overflow: hidden;
+        top: 180px;
+    }
+    .carousel-caption {
+        right: 60% !important;
+    }
+
+    .carousel-caption h5 {
+        font-size: 14px;
+    }
+    
+
+    #banner img {
+        height: 500px;
+    }
+
+    .atividades-bloco-interno img {
+        max-width: 200px;
+    }
+
+    .footer-int {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .footer-int label {
+        font-size: 13px;
+        padding-top: 10px;
+
+    }
+
+    .contato-int-2 {
+        padding-left: 0px;
+    }
+
+    .contato-botom {
+        padding: 0px 10px 10px 0px;
+
+    }
+
+    #contato label {
+        width: 100%;
+    }
+
+    #contato {
+        margin-top: 50px;
+    }
+
 }
 
 @media (min-width: 761px) and (max-width: 1000px) {
@@ -69,8 +401,24 @@
     }
 
     .texto-banner {
-        top: 150px;
+        top: 210px;
     }
+
+    .bloco-servico-bb {
+        height: 350px;
+    }
+
+    .banner-img {
+        height: 500px;
+    }
+    .carousel-caption {
+        right: 60% !important;
+    }
+
+    .carousel-caption h5 {
+        font-size: 16px;
+    }
+
 }
 
 @media (min-width: 1001px) and (max-width: 1560px) {
@@ -81,5 +429,20 @@
 
     .logo {
         max-width: 200px;
+    }
+
+    .texto-banner {
+        top: 300px;
+    }
+
+    .banner-img {
+        height: 750px;
+    }
+    .carousel-caption {
+        right: 60% !important;
+    }
+
+    .carousel-caption h5 {
+        font-size: 20px;
     }
 }

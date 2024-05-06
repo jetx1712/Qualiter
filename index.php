@@ -4,33 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qualiter</title>
+    <title>QUALITER - Engenharia</title>
     <!-- Inclua o link para o arquivo CSS do Bootstrap -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/icons/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/icons/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/icons/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/icons/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icons/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/icons/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/icons/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/icons/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icons/favicons//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/icons/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" href="assets/images/icons/favicons/favicon.ico" />
+    <link rel="manifest" href="assets/images/icons/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/icons/favicons/ms-icon-144x144.png">
 </head>
 
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <nav style="box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);"
+            class="navbar fixed-top navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="/"><img class="logo" src="assets/images/logo.svg" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">HOME</a>
+                            <a class="nav-link active" aria-current="page" href="#banner">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#quem-somos">QUEM SOMOS</a>
+                            <a class="nav-link" href="#sobre">QUEM SOMOS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#atividades">NOSSAS ATIVIDADES</a>
@@ -44,10 +64,7 @@
         </nav>
     </header>
     <section id="banner">
-        <div class="col-md-12">
-            <img class="col-md-12" src="assets/images/banner.png" />
-        </div>
-
+        <div class="col-md-12 banner-img"></div>
         <div class="texto-banner">
             <h1 class="titulo-banner">
                 Uma empresa de engenharia civil com experiência de 7 anos nos setores público e privado.<br><br>
@@ -55,7 +72,6 @@
             </h1>
         </div>
     </section>
-    <a id="quem-somos"></a>
     <section id="sobre">
         <div class="container">
             <div class="col-md-12 quem-somos">
@@ -87,7 +103,9 @@
             <h1>Nossas Atividades</h1>
             <div>
                 <h2>CONSTRUÇÃO CIVIL</h2>
-                <img style="max-width: 100%; margin-bottom: 20px" src="assets/images/Foto_Construcao_civil.png" />
+                <div class="col-md-12">
+                    <img style="max-width: 100%; margin-bottom: 20px" src="assets/images/Foto_Construcao_civil.png" />
+                </div>
                 <div class="paragrafo-principal">
                     <p>
                         O desenvolvimento e progresso estão vinculados diretamente à construção civil. As atividades do
@@ -169,7 +187,9 @@
             </div>
             <div style="margin-top: 60px">
                 <h2>SANEAMENTO</h2>
-                <img style="max-width: 100%; margin-bottom: 20px" src="assets/images/Foto_Saneamento.png" />
+                <div class="col-md-12">
+                    <img style="max-width: 100%; margin-bottom: 20px" src="assets/images/Foto_Saneamento.png" />
+                </div>
                 <div class="paragrafo-principal">
                     <p>
                         As obras de saneamento estão entre as que causam maior impacto na melhoria da qualidade de vida
@@ -230,75 +250,114 @@
                     Ecobarreiras
                 </h2>
                 <p style="color:white">
-                    Implantamos e operamos ecobarreiras em rios e lagoas, desempenhando papel fundamental na proteção do meio ambiente. A função principal dessa atividade é
+                    Implantamos e operamos ecobarreiras em rios e lagoas, desempenhando papel fundamental na proteção do
+                    meio ambiente. A função principal dessa atividade é
                     resíduos sólidos como plásticos, garrafas e demais objetos que são descartados de maneira incorreta.
                 </p>
             </div>
-            <div class="col-md-12 img-ecobarreiras">
-                <div class="col-md-6">
-                    <img src="assets/images/Foto_Ecobarreira_Ligacao.png" />
-                    <label>LIGAÇÕES ÁGUA E ESGOTO</label>
+            <div class="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/Foto_Ecobarreira_Distribuicao.png" class="d-block w-100"
+                                alt="Slide 1">
+                            <div class="carousel-caption d-md-block">
+                                <h5>DISTRIBUIÇÃO DE ÁGUA</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/Foto_Ecobarreira_Ligacao.png" class="d-block w-100" alt="Slide 2">
+                            <div class="carousel-caption d-md-block">
+                                <h5>LIGAÇÕES ÁGUA E ESGOTO</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/images/Foto_Ecobarreira_Distribuicao.png" />
-                    <label>DISTRIBUIÇÃO DE ÁGUA</label>
+
+            </div>
+            <h2>
+                ENERGIA
+            </h2>
+            <img style="max-width: 100%; margin-bottom: 20px" src="assets/images/Foto_Energia.png" />
+            <div class="paragrafo-principal">
+                <p>
+                    Um dos setores em frequente transformação, tendo a sustentabilidade como um dos seus pilares. À
+                    medida que esse mercado se desenvolve e as exigências mudam,
+                    continuamos a nos modernizar para atender às crescentes exigências de nossos clientes,
+                    fornecendo soluções integradas durante o desenvolvimento de todos os nossos projetos.</p>
+                <p>
+                    Com a integração da pré-construção, a gestão dos trabalhos de implantação e o uso de serviços
+                    terceirizados gerais, oferecemos uma abordagem abrangente para o planejamento e o
+                    desenvolvimento de projetos, além de atualização de centrais elétricas e infraestruturas de
+                    concessionárias. </p>
+                <p>O complexo setor de energia de hoje requer liderança especializada,
+                    investimento em tecnologia e inovação, além de um rápido desenvolvimento de soluções com
+                    diversos tipos de combustível, notadamente de fontes de energia renováveis.</p>
+                <p>Atuamos na iluminação pública, em subestações, instalações prediais e SPDA (Sistema de Proteção
+                    contra Descargas Atmosféricas), um conjunto de estruturas e soluções cuja função é proteger
+                    pessoas e construções das ações dos raios.
+                </p>
+            </div>
+            <h2>
+                RESÍDUOS
+            </h2>
+            <img style="max-width: 100%; margin-bottom: 20px" src="assets/images/Fpto_Residuos.png" />
+            <div class="paragrafo-principal">
+                <p>
+                    Impactado pelas atitudes humanas, o meio ambiente precisa ser preservado. Cientes da importância
+                    de cuidar das regiões onde atuamos, oferecemos serviços de coleta, transporte e
+                    destinação de resíduos com máxima eficiência e qualidade.</p>
+                <p>
+                    Disponibilizamos atendimento adequado aos resíduos desde a geração até o destino final, de
+                    acordo com a legislação vigente,
+                    garantindo a coleta, o transporte, e a destinação ambientalmente adequada, com emissão de
+                    Manifesto e certificado de destinação final, para comprovação junto aos órgãos de fiscalização
+                    do
+                    Meio de Ambiente. </p>
+            </div>
+            <div>
+                <h3>Nossos serviços compreendem:</h3>
+            </div>
+            <div id="bloco-servicos">
+                <div class="col-md-4">
+                    <div class="bloco-servico-bb">
+                        <div class="bloco-servico-interno">
+                            <img src="assets/images/icons/Icon_RSU_Urbanos.svg" />
+                            <h3 style="text-align: center; margin: 0px;">RSU / Resíduos Sólidos Urbanos</h3>
+                            <hr />
+                            <p>Varrição <br>Coleta<br> Transbordo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bloco-servico-bb">
+                        <div class="bloco-servico-interno">
+                            <img src="assets/images/icons/Icon_RCC_Contrucao_Civil.svg" />
+                            <h3 style="text-align: center; margin: 0px;">RSS / Resíduo de Serviço de Saúde</h3>
+                            <hr class="dashed-hr" />
+                            <p>Coleta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bloco-servico-bb">
+                        <div class="bloco-servico-interno">
+                            <img src="assets/images/icons/Icon_RSS_Saude.svg" />
+                            <h3 style="text-align: center; margin: 0px;">RSU / Resíduos Sólidos Urbanos</h3>
+                            <hr />
+                            <p>Coleta<br>Transporte</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <section id="servicos">
-                <h2>
-                    ENERGIA
-                </h2>
-                <img style="max-width: 100%; margin-bottom: 20px" src="assets/images/Foto_Energia.png" />
-                <div class="paragrafo-principal">
-                    <p>
-                        Um dos setores em frequente transformação, tendo a sustentabilidade como um dos seus pilares. À medida que esse mercado se desenvolve e as exigências mudam,
-                        continuamos a nos modernizar para atender às crescentes exigências de nossos clientes, fornecendo soluções integradas durante o desenvolvimento de todos os nossos projetos.</p>
-                    <p>
-                        Com a integração da pré-construção, a gestão dos trabalhos de implantação e o uso de serviços terceirizados gerais, oferecemos uma abordagem abrangente para o planejamento e o
-                        desenvolvimento de projetos, além de atualização de centrais elétricas e infraestruturas de concessionárias. </p>
-                    <p>O complexo setor de energia de hoje requer liderança especializada,
-                        investimento em tecnologia e inovação, além de um rápido desenvolvimento de soluções com diversos tipos de combustível, notadamente de fontes de energia renováveis.</p>
-                    <p>Atuamos na iluminação pública, em subestações, instalações prediais e SPDA (Sistema de Proteção contra Descargas Atmosféricas), um conjunto de estruturas e soluções cuja função é proteger
-                        pessoas e construções das ações dos raios.
-                    </p>
-                </div>
-                <h2>
-                    RESÍDUOS
-                </h2>
-                <img style="max-width: 100%; margin-bottom: 20px" src="assets/images/Fpto_Residuos.png" />
-                <div class="paragrafo-principal">
-                    <p>
-                        Impactado pelas atitudes humanas, o meio ambiente precisa ser preservado. Cientes da importância de cuidar das regiões onde atuamos, oferecemos serviços de coleta, transporte e
-                        destinação de resíduos com máxima eficiência e qualidade.</p>
-                    <p>
-                        Disponibilizamos atendimento adequado aos resíduos desde a geração até o destino final, de acordo com a legislação vigente,
-                        garantindo a coleta, o transporte, e a destinação ambientalmente adequada, com emissão de Manifesto e certificado de destinação final, para comprovação junto aos órgãos de fiscalização do
-                        Meio de Ambiente. </p>
-                </div>
-                <div>
-                    <h3>Nossos serviços compreendem:</h3>
-                </div>
-                <div id="bloco-servicos">
-                    <div class="col-md-4 bloco-servico-interno">
-                        <img src="assets/images/icons/Icon_RSU_Urbanos.svg" />
-                        <h3 style="text-align: center; margin: 0px;">RSU / Resíduos Sólidos Urbanos</h3>
-                        <hr />
-                        <p>Varrição <br>Coleta<br> Transbordo</p>
-                    </div>
-                    <div class="col-md-4 bloco-servico-interno">
-                        <img src="assets/images/icons/Icon_RCC_Contrucao_Civil.svg" />
-                        <h3 style="text-align: center; margin: 0px;">RSS / Resíduo de Serviço de Saúde</h3>
-                        <hr />
-                        <p>Coleta</p>
-                    </div>
-                    <div class="col-md-4 bloco-servico-interno">
-                        <img src="assets/images/icons/Icon_RSS_Saude.svg" />
-                        <h3 style="text-align: center; margin: 0px;">RSU / Resíduos Sólidos Urbanos</h3>
-                        <hr />
-                        <p>Coleta<br>Transporte</p>
-                    </div>
-                </div>
-            </section>
         </div>
         <img style="max-width: 100%;" class="back" />
     </section>
@@ -312,37 +371,40 @@
                     <h5>
                         Fale com a QUALITER Engenharia. Seu contato é importante para nós.
                     </h5>
-                    <form>
+                    <form id="formulario_envio" method="POST">
                         <label>Nome</label>
-                        <input class="form-control" />
+                        <input class="form-control" name="nome" placeholder="Insira seu nome"
+                            onclick="placeholder-diplay:none" />
                         <label>E-mail</label>
-                        <input class="form-control" />
+                        <input class="form-control" name="email" placeholder="Insira seu email" />
                         <label>Telefone</label>
-                        <input class="form-control" />
+                        <input class="form-control" name="telefone" placeholder="Insira seu telefone" />
                         <label>Assunto</label>
-                        <textarea class="form-control"></textarea>
+                        <textarea class="form-control" name="mensagem" placeholder="Insira sua menssagem"></textarea>
                         <div class="form-botom">
                             <div class="col-md-6 form-botom-int">
-                                <input type="checkbox" />
-                                <span>Quero receber novidades da Qualiter por e-mail e Whatsapp</span>
+                                    <input class="form-check-input" type="checkbox" />
+                                    <span>Quero receber novidades da Qualiter por e-mail e Whatsapp.</span>
                             </div>
                             <div class="col-md-6 form-botom-int">
-                                <button>Enviar</button>
+                                <button type="button" id="btnEnviar">Enviar</button>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="col-md-6 contato-int">
+                <div class="col-md-6 contato-int contato-int-2">
                     <img src="assets/images/Banner_Contato.png" />
                     <label>
-                        Entre em contato conosco para saber mais sobre nossas atividades ou venha nos fazer uma visita. Será um prazer recebê-lo.
+                        Entre em contato conosco para saber mais sobre nossas atividades ou venha nos fazer uma visita.
+                        Será um prazer recebê-lo.
                     </label>
                     <h2>
                         +55 (21) 3272-0052
                     </h2>
                     <label>
                         Escritório Central - Rio de Janeiro<br>
-                        Av. José Silva de Azevedo Neto, 200 - Bl 2 - SL. 404 Barra da Tijuca - Rio de Janeiro/ RJ - 22631-003
+                        Av. José Silva de Azevedo Neto, 200 - Bl 2 - SL. <br>404 Barra da Tijuca - Rio de Janeiro/ RJ -
+                        22631-003
                     </label>
 
                 </div>
@@ -355,7 +417,7 @@
         <div class="container">
             <div class="col-md-12 footer-int">
                 <div>
-                    <img src="assets/images/logo.svg" />
+                    <img src="assets/images/Logo_rodape.svg" />
                 </div>
                 <div style="margin-left: 20px; color: white">
                     <label>© QUALITER Engenharia - 2024 | Todos os direitos reservados.</label>
@@ -366,8 +428,96 @@
 
     </footer>
     <!-- Scripts JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script>
+        $("#btnEnviar").click(function () {
+            var formData = new FormData(document.getElementById("formulario_envio"));
+
+            $.ajax({
+                type: "POST",
+                url: "mail.php",
+                data: formData,
+                processData: false,
+                contentType: false,
+                beforeSend: function () {
+                    $("#loader").show();
+                }
+            })
+                .done(function (response) {
+                    $("#loader").hide();
+                    if (response.sucesso) {
+                        Swal.fire({
+                            position: 'top',
+                            icon: 'success',
+                            title: 'Sua mensagem foi enviada com sucesso!',
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                    } else {
+                        Swal.fire({
+                            position: 'top',
+                            icon: 'warning',
+                            title: 'Não foi possível enviar sua menssagem!',
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                    }
+                });
+        });
+        class PlaceholderHandler {
+            constructor(selector) {
+                this.inputs = document.querySelectorAll(selector);
+                this.attachEvents();
+            }
+
+            attachEvents() {
+                this.inputs.forEach(input => {
+                    input.addEventListener("click", () => this.removePlaceholder(input));
+                });
+            }
+
+            removePlaceholder(input) {
+                input.removeAttribute("placeholder");
+            }
+        }
+
+        // Inicialização da classe para campos de entrada com a classe "form-control"
+        document.addEventListener("DOMContentLoaded", function () {
+            new PlaceholderHandler(".form-control");
+        });
+
+        window.addEventListener('scroll', function () {
+            let sections = document.querySelectorAll('section');
+            let anchors = document.querySelectorAll('nav ul li a');
+            let currentSection = '';
+
+            sections.forEach(function (section) {
+                const sectionTop = section.offsetTop;
+                if (window.scrollY >= sectionTop - 50) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            anchors.forEach(function (anchor) {
+                if (anchor.getAttribute('href').slice(1) === currentSection) {
+                    anchor.classList.add('active');
+                } else {
+                    anchor.classList.remove('active');
+                }
+            });
+        });
+
+
+
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

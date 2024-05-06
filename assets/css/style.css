@@ -4,9 +4,7 @@ img{
 body {
     overflow-x: hidden;
 }
-.navbar-toggler{
-    background-color: #3b4c62 !important;
-}
+
 nav {
     background: white;
     position: fixed;
@@ -19,6 +17,17 @@ nav {
 
 .nav-item {
     padding-left: 20px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(100 122 152)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 .nav-link {
@@ -102,7 +111,7 @@ nav {
 
 /* Topicos */
 #sobre {
-    margin-top: 150px;
+    padding-top: 110px;
     margin-bottom: 130px;
 }
 
@@ -119,7 +128,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 20px 10px 15px 16px;
+}
+
+#bloco-servicos h3 {
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 500;
 }
 
 .quem-somos img {
@@ -127,22 +144,31 @@ nav {
 }
 
 #sobre .bloco {
-    padding: 10px;
+    padding: 10px 10px 0px 0px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
 }
 
 /*Atividades*/
 #atividades {
     background-color: #3B4C62;
-    padding-bottom: 400px;
+    padding-bottom: 100px;
 }
 
 #atividades {
-    position: relative; /* Certifique-se de que a posição relativa seja definida no contêiner pai */
+    position: relative;
+    /* Certifique-se de que a posição relativa seja definida no contêiner pai */
     background-image: url('../images/Elementos_fundos.png');
-    background-size: cover; /* Para ajustar a imagem para cobrir toda a seção */
-    background-position: center; /* Para centralizar a imagem */
-    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
-    color: #ffffff; /* Cor do texto para garantir que seja visível na imagem de fundo */
+    background-size: cover;
+    /* Para ajustar a imagem para cobrir toda a seção */
+    background-position: center;
+    /* Para centralizar a imagem */
+    background-repeat: no-repeat;
+    /* Para evitar a repetição da imagem */
+    color: #ffffff;
+    /* Cor do texto para garantir que seja visível na imagem de fundo */
 }
 
 #atividades h1 {
@@ -152,14 +178,21 @@ nav {
     text-transform: uppercase;
     opacity: 1;
     font-weight: 700;
-    padding-top: 300px;
-    padding-bottom: 50px;
+    padding: 150px 10px 10px 14px;
+
 }
 
 #atividades h2 {
     text-align: left;
     color: #7DA2D6;
     font-weight: 500;
+    padding: 0px 10px 10px 14px;
+}
+#atividades img{
+    padding: 0px 10px 10px 14px;
+}
+#atividades p{
+    padding: 0px 10px 10px 14px;
 }
 
 #atividades h3 {
@@ -185,8 +218,11 @@ nav {
 }
 
 .atividades-bloco-interno {
-    padding: 20px;
+    padding: 20px 10px 10px 0px;
     color: #FFFFFF;
+}
+.atividades-bloco-interno img{
+    max-width: 300px;
 }
 
 /*Conceito*/
@@ -317,6 +353,31 @@ nav {
 .img-ecobarreiras {
     display: flex;
 }
+.img-ecobarreiras label{
+    padding: 0px 0px 0px 14px;
+}
+.banner-img{
+    height: 900px;
+    background-image: url('../images/banner.png');
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-caption {
+    position: absolute !important;
+    right: 72% !important;
+    bottom: 1.25rem !important;
+    left: 0% !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+    color: #fff !important;
+    text-align: center !important;
+    background: #00000061 !important;
+}
+
+.img-ecobarreiras img{
+    max-width: 100%;
+}
 
 .img-ecobarreiras label {
     color: white;
@@ -329,16 +390,14 @@ nav {
 
 #bloco-servicos {
     display: flex;
-    margin: 20px;
+    margin: 20px 10px;
 }
 
 .bloco-servico-interno {
     display: grid;
     justify-content: center;
-    align-items: center;
     justify-items: center;
-    background-color: #647A98;
-    margin: 20px;
+    align-items: center;
 }
 
 .bloco-servico-interno img {
@@ -351,6 +410,20 @@ nav {
     font-weight: 500;
 }
 
+.bloco-servico-bb {
+    background-color: #647A98;
+    padding: 10px;
+    margin-left: 10px;
+    height: 330px;
+}
+
+.bloco-servico-bb hr {
+    border: none;
+    border-top: 2px dashed white;
+    height: 0;
+    margin: 20px 0;
+}
+
 .bloco-servico-interno hr {
     color: #FFFFFF;
     width: 100%;
@@ -359,7 +432,8 @@ nav {
 
 .bloco-servico-interno p {
     color: #FFFFFF;
-    margin: 40px;
+    margin: 20px 10px 10px 10px;
+    font-size: 20px;
 }
 
 #contato h2 {
@@ -371,7 +445,7 @@ nav {
 }
 
 #contato {
-    margin-top: 150px;
+    padding-top: 150px;
     margin-bottom: 100px;
 }
 
@@ -382,6 +456,7 @@ nav {
 
 #contato label {
     margin: 10px 10px 10px 0px;
+    width: 85%;
 }
 
 .form-botom {
@@ -392,7 +467,7 @@ nav {
 }
 
 .form-botom-int {
-    justify-content: center;
+    justify-content: flex-end;
     display: flex;
     align-items: center;
 
@@ -400,25 +475,48 @@ nav {
 
 .form-botom button {
     background-color: #647A98;
-    width: 150px;
-    height: 70px;
+    width: 230px;
+    height: 50px;
     color: white;
     font-size: 20px;
     border: none;
 }
 
+.form-check-input {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.form-check-input:checked {
+    background-color: white !important;
+    border-color: #647A98 !important;
+}
+
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='rgb(100 122 152)' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e") !important;
+}
+
 .form-botom span {
-    margin: 20px;
+    margin: 20px 80px 20px 10px;
+    font-size: 11px;
 }
 
 .contato-botom {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0px 10px 10px 40px;
 }
 
 .contato-int {
     margin: 20px;
+}
+.contato-int-2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
 }
 
 footer {
@@ -431,15 +529,16 @@ footer {
     justify-content: center;
     padding: 20px;
 }
-@media (min-width: 200px) and (max-width: 760px){
-    #bloco-servicos{
+
+@media (min-width: 200px) and (max-width: 760px) {
+    #bloco-servicos {
         flex-direction: column;
     }
-    .back{
+
+    .back {
         display: none;
     }
 
 }
-@media (min-width: 200px) and (max-width: 330px){
-    
-}
+
+@media (min-width: 200px) and (max-width: 330px) {}
