@@ -1,0 +1,85 @@
+/* 200 - 374 */
+
+@media (min-width: 200px) and (max-width: 760px) {
+    .logo{
+        max-width: 200px;
+    }
+    .titulo-banner {
+        font-size: 20px;
+    }
+
+    #atividades {
+        padding-bottom: 20px;
+    }
+
+    #atividades h3 {
+        font-size: 15px;
+    }
+
+    .bloco-servico-interno {
+        padding: 10px;
+    }
+
+    #sobre {
+        margin-top: 0px;
+        height: 1100px;
+        margin-bottom: 1px;
+    }
+
+    .quem-somos {
+        flex-direction: column-reverse;
+    }
+
+    #atividades h1 {
+        padding-top: 30px;
+    }
+
+    #atividades h2 {
+        font-size: 20px;
+    }
+
+    #atividades p {
+        font-size: 10px;
+    }
+
+    .contato-botom {
+        flex-direction: column-reverse;
+    }
+
+    .form-botom {
+        flex-direction: column;
+    }
+
+    .texto-banner {
+        left: 15%;
+        position: absolute;
+        overflow: hidden;
+        top: 150px;
+    }
+
+    #banner img {
+        height: 500px;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 1000px) {
+    .titulo-banner {
+        color: white;
+        font-size: 20px
+    }
+
+    .texto-banner {
+        top: 150px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1560px) {
+    .titulo-banner {
+        color: white;
+        font-size: 30px
+    }
+
+    .logo {
+        max-width: 200px;
+    }
+}

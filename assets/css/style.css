@@ -1,0 +1,445 @@
+img{
+    max-width: 100%;
+}
+body {
+    overflow-x: hidden;
+}
+.navbar-toggler{
+    background-color: #3b4c62 !important;
+}
+nav {
+    background: white;
+    position: fixed;
+    padding: 0;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0 !important;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+.nav-link {
+    color: #4D4D4D !important;
+    font-weight: 600 !important;
+}
+
+.nav-link.active {
+    color: #4B5F7B !important;
+}
+
+#navbarNav {
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.logo {
+    max-width: 450px;
+    padding: 15px;
+}
+
+.icon-search {
+    font-size: 30px;
+    color: white;
+    padding: 20px 30px 20px 30px;
+    border-left: solid 1px white;
+}
+
+
+.texto-banner {
+    left: 15%;
+    position: absolute;
+    overflow: hidden;
+    top: 300px;
+}
+
+.titulo-banner {
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    max-width: 50%;
+}
+
+.titulo-banner span {
+    font-weight: bold;
+}
+
+.subtitulo-banner {
+    font-size: 30px;
+    color: white;
+    max-width: 50%;
+    margin-top: 40px;
+}
+
+.subtitulo-banner span {
+    font-size: 32px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.button-text-banner {
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat';
+    margin-top: 30px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #0000 20.55%, rgb(31, 133, 199) 100%);
+    background-color: rgb(31, 133, 199);
+    transition: all 400ms ease-in;
+}
+
+.button-text-banner:hover {
+    background-color: rgba(40, 174, 177, 1);
+}
+
+.texto-banner i {
+    margin-right: 10px;
+}
+
+/* Topicos */
+#sobre {
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+
+#sobre h1 {
+    text-align: left;
+    letter-spacing: 3px;
+    color: #647A98;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.quem-somos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.quem-somos img {
+    max-width: 100%;
+}
+
+#sobre .bloco {
+    padding: 10px;
+}
+
+/*Atividades*/
+#atividades {
+    background-color: #3B4C62;
+    padding-bottom: 400px;
+}
+
+#atividades {
+    position: relative; /* Certifique-se de que a posição relativa seja definida no contêiner pai */
+    background-image: url('../images/Elementos_fundos.png');
+    background-size: cover; /* Para ajustar a imagem para cobrir toda a seção */
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+    color: #ffffff; /* Cor do texto para garantir que seja visível na imagem de fundo */
+}
+
+#atividades h1 {
+    text-align: left;
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight: 700;
+    padding-top: 300px;
+    padding-bottom: 50px;
+}
+
+#atividades h2 {
+    text-align: left;
+    color: #7DA2D6;
+    font-weight: 500;
+}
+
+#atividades h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+#atividades .paragrafo-principal {
+    text-align: left;
+    color: #FFFFFF;
+    padding: 40px 0px 70px 0px;
+
+}
+
+.atividades-bloco {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.atividades-bloco-interno {
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+/*Conceito*/
+#banner-interno {
+    height: 650px;
+}
+
+#banner-conceito {
+    background-image: url("../images/banner.png");
+    height: 650px;
+}
+
+#nome-interno {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: white;
+    font-size: 25px;
+}
+
+#nome-interno label {
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+#botao-player {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    font-size: 170px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+#botao-player label {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+#conteudo-titulo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+#conteudo-titulo h1 {
+    margin: 0px 0px 50px 0px;
+    font-family: 'Montserrat';
+    color: #3b4c62;
+    font-weight: bold;
+}
+
+.paragrafo-conteudo {
+    font-family: 'Montserrat';
+    color: #3b4c62;
+}
+
+.paragrafo-conteudo span {
+    font-weight: bold;
+
+}
+
+/*O projeto - Benefícios*/
+#beneficios h1 {
+    margin: 0px 0px 50px 0px;
+    font-family: 'Montserrat';
+    color: #3b4c62;
+    font-weight: bold;
+}
+
+.beneficios {
+    display: flex;
+    align-items: stretch;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.conteudo-master {
+    display: grid;
+    padding: 15px;
+}
+
+.conteudo-beneficio {
+    display: inline-flex;
+    align-items: stretch;
+}
+
+.conteudo-beneficio i {
+    font-size: 30px;
+    margin-right: 15px;
+    color: #3b4c62;
+}
+
+.beneficios img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/*Conceito*/
+
+.banner-top {
+    background: rgb(3 114 170);
+    height: 650px;
+}
+
+.titulo-banner-top {
+    position: absolute;
+    margin-top: 300px;
+    color: white;
+    font-weight: 700;
+}
+
+.titulo-banner-top p {
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+
+.img-conceito {
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+
+.img-ecobarreiras {
+    display: flex;
+}
+
+.img-ecobarreiras label {
+    color: white;
+    margin-top: 30px;
+}
+
+#servicos {
+    margin-top: 100px;
+}
+
+#bloco-servicos {
+    display: flex;
+    margin: 20px;
+}
+
+.bloco-servico-interno {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #647A98;
+    margin: 20px;
+}
+
+.bloco-servico-interno img {
+    margin: 20px;
+}
+
+.bloco-servico-interno h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.bloco-servico-interno hr {
+    color: #FFFFFF;
+    width: 100%;
+
+}
+
+.bloco-servico-interno p {
+    color: #FFFFFF;
+    margin: 40px;
+}
+
+#contato h2 {
+    text-align: left;
+    color: #7DA2D6;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+#contato {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#contato h5 {
+    text-align: left;
+    font-weight: 600;
+}
+
+#contato label {
+    margin: 10px 10px 10px 0px;
+}
+
+.form-botom {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.form-botom-int {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.form-botom button {
+    background-color: #647A98;
+    width: 150px;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.form-botom span {
+    margin: 20px;
+}
+
+.contato-botom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-int {
+    margin: 20px;
+}
+
+footer {
+    background-color: #647A98;
+}
+
+.footer-int {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+@media (min-width: 200px) and (max-width: 760px){
+    #bloco-servicos{
+        flex-direction: column;
+    }
+    .back{
+        display: none;
+    }
+
+}
+@media (min-width: 200px) and (max-width: 330px){
+    
+}
